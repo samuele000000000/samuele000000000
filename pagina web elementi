@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width; initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <tile> Hompage</tile>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+    </style>
+
+
+    </head>
+        <body>
+            <div class="header">
+                <h1>Elementi semantici</h1>
+                <!--contenuto principale della pagina.posso usare questo tag piu volte-->
+                <div class="nav">
+                    <!--menu di navigazione-->
+
+
+
+
+
+                </div>
+            <div class="main"> <!--indica il certo della pagina e facoltativo, solo una volta nella pagina nella sezione principale-->
+                <section>
+                    <!---sezione del contenuto -->
+                    <article>
+                        <!--articolo-->
+                        <header>
+                            <h2> Secondo titolo</h2>
+                        </header>
+                    </article>
+                </section>
+            </div>
+                </div> 
+                    <footer>
+                        <!--pie di pagina-->
+                        <!--autore partiva iva date e altri pezzi della pagina-->
+                    </footer>
+
+
+
+
+
+
+
+        </body>
+    </html>
