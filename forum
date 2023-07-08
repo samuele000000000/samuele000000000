@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    
+
+
+
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>nome</legend>
+        <div class="group-forum">
+        <label for="">nome</label> <!--etichetta -->
+            <input type="text" id="nome" name="nome" required placeholder="nome">
+        </fieldset>
+        </div>
+
+
+        <div class="group-forum">
+            <fieldset>
+                <legend>cognome</legend>
+            <label for="cognome">cognome</label>
+                <input type="text" id="cognome" name="cognome" required placeholder="cognome">
+            </fieldset>
+            </div>
+
+            <div class="group-forum">
+                <fieldset>
+                <legend>email</legend>
+                <label for="email">email</label>
+                    <input type="email" id="email" name="email" required placeholder="email">
+            </fieldset>
+
+                </div>    
+
+            <div class="group-forum">
+                <fieldset>
+                <legend>password</legend>
+                <label for="password">password</label>
+                    <input type="password"id="password"name="password" required placeholder="password">
+            </fieldset>
+                </div>  
+                
+                <div class="group-forum">
+                    <fieldset>
+                <legend>telefono</legend>
+                    <label for="telefono">telefono</label>
+                        <input type="tel" id="tel"name="tel" required placeholder="numero telefono">
+                    </fieldset>
+
+
+                        <div class="group-forum">
+                            <input type="button" value="invia">
+                            <button type="reset">resetta</button>
+        
+                        </div>
+
+                        <div class="group-forum">     
+                            <label>Seleziona la tua citta</label>     
+                            <select multiple size="3">
+                                    <optgroup label="belli">
+                                <option value="america">am</option>
+                                <option value="spagna">spa</option>
+                                     </optgroup>
+                                <option value="italia">italia</option>
+
+
+
+
+                            </select>  
+
+                            <div class="group-forum">    
+                                <label >sei maggiorenne</label>
+                                si <input type="radio"name="maggiorenne" value="si" checked>
+                                    no<input type="radio"name="maggiorenne" value="no">
+
+                                </div>
+
+                                <label for="messaggio">scrivi il tuo messaggio</label>
+                                    <textarea id="messaggio" rows="4" cols="30" maxlength="100" size="30"placeholder="scrivi il tuo messaggio"></textarea>
+
+                                    <div class="group-forum">   
+                                    si  <input type="checkbox" value="si">
+                                    no   <input type="checkbox" value="no">
+                                </div>      
+
+    </form>
+<!--required campo obbligatorio-->
+<!--placholder "indica quello che devi scrivire"-->
+<!--reset "resetta i campi"-->  
+<!--fieldset "serve per dividere gli input in gruppi"-->
+<!--legend "leggenda" serve per dare dei nomi ai campi di input in modo da distinguerli-->
+<!-- multiple size="3 per selezionare piu scelte contemporaniamente-->
+<!--optgroup label per creare un sottogruppo di categoria-->
+<!--checked "per farlo rimanare selezionato--->
+
+</body>
+</html>
